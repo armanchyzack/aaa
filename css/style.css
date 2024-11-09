@@ -1,0 +1,140 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-image: url(../img/aaaa.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*side nav bar start*/
+.sidenav {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* @media screen and (max-width: 450px) {
+  
+  .sidenav a {font-size: 18px;}
+}
+@media screen and (max-width: 370px) {
+  
+} */
+@media only screen and (max-width: 480px) and (min-width: 320px)  {
+
+  .sidenav {width: 72px;}
+  .sidenav a {padding-left: 12px;
+  font-size: 14px;
+  }
+
+}
+
+
+
+/* @media screen and (max-width: 320px) {
+  .sidenav {width: 72px;}
+  .sidenav a {padding-left: 12px;
+  font-size: 14px;
+  }
+} */
+/*side nav bar end*/
+.logo img{
+  height: 3rem; 
+  width: 3.5rem; 
+  margin-top: 8px; 
+  margin-left: 35.5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+/*card section start*/
+.carde{
+  padding-top: 1rem;
+}
+.card{
+  padding: 1rem;
+  background-color: #000000 !important;
+  
+}
+
+.card h5{
+  text-transform: capitalize;
+  color: #fff;
+}
+.card p{
+  color: #fff;
+}
+.card button{
+  background-color:inherit;
+  border: 1px solid #ffd700;
+  color: #ffd700;
+  text-transform: uppercase;
+  font-weight: 600;
+
+}
+.card button:hover{
+  background-color: #3a424a;
+}
+
+
+
+.input-group {
+  width: 94% !important;
+}
+
+
+
+.row {
+  --bs-gutter-x: 0rem !important;
+}
+
+
+.card {
+  margin-right: 8px !important;
+}
+i.fa-solid.fa-circle-info {
+  font-size: 12px;
+}
+
+.sidenav {
+  width: 22.5%;
+}
+
+button.btn.btn-secondary.dropdown-toggle.btn-sm.w-100 {
+
+  border: 1px solid #ffd700;
+  color: #ffd700;
+  background: inherit;
+  padding-right: 10px;
+}
+
+
+
+
+.dropdown {
+  width: 98%;
+  padding: 0px 3px;
+}
+
+
