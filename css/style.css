@@ -93,6 +93,17 @@ body {
   font-weight: 600;
 
 }
+.search button{
+  background-color:inherit;
+  border: 1px solid #ffd700;
+  color: #ffd700;
+  text-transform: uppercase;
+  font-weight: 600;
+
+}
+.search button:hover{
+  background-color: #3a424a;
+}
 .card button:hover{
   background-color: #3a424a;
 }
